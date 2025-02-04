@@ -13,4 +13,4 @@ COPY $JAR_FILE memberapp.jar
 EXPOSE 9090
 
 ENTRYPOINT ["java"]
-CMD ["-jar, "memberapp.jar"]
+CMD ["-jar", "memberapp.jar"]
